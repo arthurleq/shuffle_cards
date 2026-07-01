@@ -17,6 +17,8 @@ To answer it, we compare several shuffling methods using **Shannon entropy** as 
 
 For each shuffling method, we run a **Monte-Carlo simulation** : starting from a fresh sorted deck, the shuffle is repeated $N$ times. For each card $c$, we estimate the empirical distribution of its final position $p_c(j)$, then compute its Shannon entropy :
 
-$$H(c) = -\sum_{j=0}^{51} p_c(j) \log_2 p_c(j)$$
+$$
+H(c) = -\sum_{j=0}^{51} p_c(j) ~ \log_2(p_c(j))
+$$
 
 The global entropy of the deck is the average over all 52 cards. It ranges from **0 bits** (no shuffling, deck stays sorted) to **log₂(52) ≈ 5.70 bits** (perfectly random).
