@@ -1,4 +1,4 @@
-# 🃏 Card Shuffling — Shannon Entropy Analysis
+# 🃏 Card Shuffling Analysis by Shannon Entropy Evaluation with Monte-Carlo Simulation
 
 This project explores a simple question : **is there a best way to shuffle a deck of cards ?**
 
